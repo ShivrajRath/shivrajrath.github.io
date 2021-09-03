@@ -21,6 +21,7 @@ li {
 
 a {
   color: var(--main-color);
+  font-size: 0.825rem;
 }
 
 .container {
@@ -83,9 +84,6 @@ header {
       }
     }
   }
-  a {
-    font-size: 0.825rem;
-  }
 }
 
 .projects {
@@ -103,6 +101,13 @@ header {
     font-size: 0.825rem;
     line-height: 1.4;
   }
+}
+
+footer {
+  font-size: 0.825rem;
+  padding: 1rem;
+  border-top: 1px solid var(--low-priority-color);
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
