@@ -1,12 +1,25 @@
-:root {
+html {
   --main-color: #000;
   --secondary-color: #fff;
   --low-priority-color: #00000099;
 }
 
+@media (prefers-color-scheme: dark) {
+  html {
+    --main-color: #fff;
+    --secondary-color: #000;
+    --low-priority-color: #ccbdbd;
+  }
+  svg {
+    fill: var(--main-color);
+  }
+}
+
 body,
 html,
 * {
+  color: var(--main-color);
+  background-color: var(--secondary-color);
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -150,7 +163,7 @@ footer {
   }
 }
 
-@media only print {
+@media print {
   a:not(.mail) {
     display: none;
   }
