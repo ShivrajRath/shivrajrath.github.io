@@ -149,4 +149,10 @@ footer {
     font-size: 1rem;
   }
 }
+
+@media only print {
+  a:not(.mail) {
+    display: none;
+  }
+}
 /*# sourceMappingURL=app.css.map */
