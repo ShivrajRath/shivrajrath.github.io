@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Golden Shelf thumbnail">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b45309"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <g transform="translate(400,185)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <rect x="-115" y="30" width="230" height="34" rx="5" fill="rgba(255,255,255,0.22)"/>
+    <rect x="-100" y="-10" width="200" height="34" rx="5" fill="rgba(255,255,255,0.28)"/>
+    <rect x="-85" y="-50" width="170" height="34" rx="5" fill="rgba(255,255,255,0.34)"/>
+    <polygon points="0,-95 12,-83 28,-80 18,-68 20,-52 0,-60 -20,-52 -18,-68 -28,-80 -12,-83" fill="#fff" stroke="none"/>
+  </g>
+  <text x="400" y="370" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="42" font-weight="700" fill="#fff" opacity="0.96">Golden Shelf</text>
+</svg>
