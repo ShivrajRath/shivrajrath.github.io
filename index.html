@@ -96,7 +96,7 @@
     .project:hover { transform: translateY(-4px); box-shadow: 0 14px 40px rgba(15,23,42,0.14); border-color: var(--accent); }
     @media (prefers-color-scheme: dark) { .project:hover { box-shadow: 0 14px 40px rgba(0,0,0,0.5); } }
 
-    .thumb { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-bottom: 1px solid var(--border); }
+    .thumb { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-bottom: 1px solid var(--border); cursor: pointer; }
 
     .project-body { padding: 20px; display: flex; flex-direction: column; flex: 1; }
     .project-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
@@ -159,7 +159,7 @@
         <div class="projects-grid">
 
           <article class="project fade">
-            <img class="thumb" src="assets/thumbs/stemstream.png" alt="STEMstream thumbnail" />
+            <a href="https://novicelab.org/STEMstream/" target="_blank" rel="noopener"><img class="thumb" src="assets/thumbs/stemstream.png" alt="STEMstream thumbnail" /></a>
             <div class="project-body">
               <div class="project-head">
                 <h3>STEMstream</h3>
@@ -171,14 +171,13 @@
                 <span class="chip">React 19</span><span class="chip">Vite</span><span class="chip">Tailwind CSS</span><span class="chip">Lucide</span>
               </div>
               <div class="links">
-                <a class="plink primary" href="https://novicelab.org/STEMstream/" target="_blank" rel="noopener">Live Demo</a>
                 <a class="plink" href="https://github.com/ShivrajRath/STEMstream" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="project fade d1">
-            <img class="thumb" src="assets/thumbs/readlings.png" alt="Readlings thumbnail" />
+            <a href="https://novicelab.org/readlings/" target="_blank" rel="noopener"><img class="thumb" src="assets/thumbs/readlings.png" alt="Readlings thumbnail" /></a>
             <div class="project-body">
               <div class="project-head">
                 <h3>Readlings</h3>
@@ -190,14 +189,13 @@
                 <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Web Speech API</span>
               </div>
               <div class="links">
-                <a class="plink primary" href="https://novicelab.org/readlings/" target="_blank" rel="noopener">Live Demo</a>
                 <a class="plink" href="https://github.com/ShivrajRath/readlings" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="project fade d2">
-            <img class="thumb" src="assets/thumbs/golden-shelf.png" alt="Golden Shelf thumbnail" />
+            <a href="https://novicelab.org/golden-shelf/" target="_blank" rel="noopener"><img class="thumb" src="assets/thumbs/golden-shelf.png" alt="Golden Shelf thumbnail" /></a>
             <div class="project-body">
               <div class="project-head">
                 <h3>Golden Shelf</h3>
@@ -209,14 +207,13 @@
                 <span class="chip">Tailwind</span><span class="chip">Alpine.js</span><span class="chip">Python</span><span class="chip">GitHub Pages</span>
               </div>
               <div class="links">
-                <a class="plink primary" href="https://novicelab.org/golden-shelf/" target="_blank" rel="noopener">Live Demo</a>
                 <a class="plink" href="https://github.com/ShivrajRath/golden-shelf" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="project fade">
-            <img class="thumb" src="assets/thumbs/golden-shelf-kids.png" alt="Golden Shelf Kids thumbnail" />
+            <a href="https://novicelab.org/golden-shelf-kids/" target="_blank" rel="noopener"><img class="thumb" src="assets/thumbs/golden-shelf-kids.png" alt="Golden Shelf Kids thumbnail" /></a>
             <div class="project-body">
               <div class="project-head">
                 <h3>Golden Shelf Kids</h3>
@@ -228,14 +225,13 @@
                 <span class="chip">Tailwind</span><span class="chip">Python</span><span class="chip">Open Library</span><span class="chip">Goodreads</span>
               </div>
               <div class="links">
-                <a class="plink primary" href="https://novicelab.org/golden-shelf-kids/" target="_blank" rel="noopener">Live Demo</a>
                 <a class="plink" href="https://github.com/ShivrajRath/golden-shelf-kids" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="project fade d1">
-            <img class="thumb" src="assets/thumbs/newspaper.png" alt="The Daily Brief thumbnail" />
+            <a href="https://novicelab.org/newspaper/" target="_blank" rel="noopener"><img class="thumb" src="assets/thumbs/newspaper.png" alt="The Daily Brief thumbnail" /></a>
             <div class="project-body">
               <div class="project-head">
                 <h3>The Daily Brief</h3>
@@ -247,14 +243,13 @@
                 <span class="chip">Python</span><span class="chip">RSS</span><span class="chip">Hacker News</span><span class="chip">yfinance</span>
               </div>
               <div class="links">
-                <a class="plink primary" href="https://novicelab.org/newspaper/" target="_blank" rel="noopener">Live Demo</a>
                 <a class="plink" href="https://github.com/ShivrajRath/newspaper" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="project fade d2">
-            <img class="thumb" src="assets/thumbs/daydeck.png" alt="DayDeck thumbnail" />
+            <a href="https://community.obsidian.md/plugins/daydeck" target="_blank" rel="noopener"><img class="thumb" src="assets/thumbs/daydeck.png" alt="DayDeck thumbnail" /></a>
             <div class="project-body">
               <div class="project-head">
                 <h3>DayDeck</h3>
@@ -266,14 +261,13 @@
                 <span class="chip">TypeScript</span><span class="chip">Obsidian API</span><span class="chip">esbuild</span>
               </div>
               <div class="links">
-                <a class="plink primary" href="https://community.obsidian.md/plugins/daydeck" target="_blank" rel="noopener">Install Plugin</a>
                 <a class="plink" href="https://github.com/ShivrajRath/daydeck" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="project fade">
-            <img class="thumb" src="assets/thumbs/jsonabc.png" alt="JSON ABC thumbnail" />
+            <a href="https://novicelab.org/jsonabc" target="_blank" rel="noopener"><img class="thumb" src="assets/thumbs/jsonabc.png" alt="JSON ABC thumbnail" /></a>
             <div class="project-body">
               <div class="project-head">
                 <h3>JSON ABC</h3>
@@ -285,7 +279,6 @@
                 <span class="chip">JavaScript</span><span class="chip">npm</span><span class="chip">Offline</span>
               </div>
               <div class="links">
-                <a class="plink primary" href="https://novicelab.org/jsonabc" target="_blank" rel="noopener">Live Demo</a>
                 <a class="plink" href="https://github.com/ShivrajRath/jsonabc" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
