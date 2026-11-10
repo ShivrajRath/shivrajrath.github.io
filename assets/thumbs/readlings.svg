@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- floating letters -->
+  <g font-family="Inter, system-ui, sans-serif" font-weight="800" fill="#1f2a44" opacity="0.18">
+    <text x="260" y="260" font-size="150">A</text>
+    <text x="1320" y="300" font-size="130">b</text>
+    <text x="1280" y="720" font-size="140">C</text>
+    <text x="230" y="760" font-size="120">c</text>
+  </g>
+  <!-- stars -->
+  <g fill="#f59e0b">
+    <polygon points="1380,160 1395,205 1442,205 1404,233 1419,278 1380,250 1341,278 1356,233 1318,205 1365,205"/>
+    <polygon points="260,150 272,186 310,186 280,208 292,244 260,222 228,244 240,208 210,186 248,186"/>
+  </g>
+  <!-- open book -->
+  <g transform="translate(800,520)">
+    <path d="M-300 0 C-220 -120 -80 -150 0 -60 C80 -150 220 -120 300 0 L300 120 C220 0 80 -30 0 60 C-80 -30 -220 0 -300 120 Z" fill="url(#book)" stroke="#1f2a44" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M0 -60 L0 60" stroke="#1f2a44" stroke-width="10" stroke-linecap="round"/>
+    <!-- pages lines -->
+    <g stroke="#fff" stroke-width="8" stroke-linecap="round" opacity="0.7">
+      <line x1="-260" y1="20" x2="-60" y2="-20"/>
+      <line x1="-250" y1="55" x2="-70" y2="15"/>
+      <line x1="60" y1="-20" x2="260" y2="20"/>
+      <line x1="70" y1="15" x2="250" y2="55"/>
+    </g>
+  </g>
+  <text x="800" y="230" font-family="Inter, system-ui, sans-serif" font-size="130" font-weight="800" text-anchor="middle" fill="#1f2a44">Readlings</text>
+  <text x="800" y="800" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="600" text-anchor="middle" fill="#1f2a44">Step-by-step reading adventures for early learners</text>
+</svg>

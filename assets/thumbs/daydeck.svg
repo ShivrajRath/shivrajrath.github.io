@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- kanban columns -->
+  <g transform="translate(220,220)">
+    <!-- column 1 -->
+    <rect x="0" y="0" width="360" height="500" rx="16" fill="#312e81" stroke="#6366f1" stroke-width="2"/>
+    <text x="24" y="44" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#a5b4fc">To Do</text>
+    <rect x="24" y="70" width="312" height="70" rx="10" fill="#4338ca"/>
+    <rect x="24" y="150" width="312" height="70" rx="10" fill="#4338ca"/>
+    <rect x="24" y="230" width="312" height="70" rx="10" fill="#4338ca"/>
+    <!-- column 2 -->
+    <rect x="400" y="0" width="360" height="500" rx="16" fill="#312e81" stroke="#6366f1" stroke-width="2"/>
+    <text x="424" y="44" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#a5b4fc">In Progress</text>
+    <rect x="424" y="70" width="312" height="70" rx="10" fill="#6366f1"/>
+    <rect x="424" y="150" width="312" height="70" rx="10" fill="#6366f1"/>
+    <!-- column 3 -->
+    <rect x="800" y="0" width="360" height="500" rx="16" fill="#312e81" stroke="#6366f1" stroke-width="2"/>
+    <text x="824" y="44" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#a5b4fc">Done</text>
+    <rect x="824" y="70" width="312" height="70" rx="10" fill="#22c55e" opacity="0.85"/>
+    <rect x="824" y="150" width="312" height="70" rx="10" fill="#22c55e" opacity="0.85"/>
+    <rect x="824" y="230" width="312" height="70" rx="10" fill="#22c55e" opacity="0.85"/>
+    <rect x="824" y="310" width="312" height="70" rx="10" fill="#22c55e" opacity="0.85"/>
+  </g>
+  <!-- checkmarks on done cards -->
+  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <polyline points="1030,300 1046,318 1076,282"/>
+    <polyline points="1030,380 1046,398 1076,362"/>
+    <polyline points="1030,460 1046,478 1076,442"/>
+    <polyline points="1030,540 1046,558 1076,522"/>
+  </g>
+  <text x="800" y="160" font-family="Inter, system-ui, sans-serif" font-size="130" font-weight="800" text-anchor="middle" fill="#ffffff">DayDeck</text>
+  <text x="800" y="820" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" text-anchor="middle" fill="#a5b4fc">Your day, compiled.</text>
+</svg>

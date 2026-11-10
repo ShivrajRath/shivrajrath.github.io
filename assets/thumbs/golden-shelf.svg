@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffbeb"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b45309"/>
+      <stop offset="1" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- shelf -->
+  <rect x="180" y="560" width="1240" height="40" rx="8" fill="url(#shelf)"/>
+  <rect x="180" y="700" width="1240" height="40" rx="8" fill="url(#shelf)"/>
+  <!-- books row 1 -->
+  <g>
+    <rect x="220" y="300" width="90" height="260" rx="6" fill="#7c3aed"/>
+    <rect x="315" y="330" width="70" height="230" rx="6" fill="#2563eb"/>
+    <rect x="390" y="280" width="100" height="280" rx="6" fill="#059669"/>
+    <rect x="495" y="320" width="80" height="240" rx="6" fill="#dc2626"/>
+    <rect x="580" y="290" width="95" height="270" rx="6" fill="#ca8a04"/>
+    <rect x="680" y="340" width="75" height="220" rx="6" fill="#0891b2"/>
+    <rect x="760" y="270" width="110" height="290" rx="6" fill="#9333ea"/>
+    <rect x="875" y="310" width="85" height="250" rx="6" fill="#16a34a"/>
+    <rect x="965" y="295" width="90" height="265" rx="6" fill="#ea580c"/>
+    <rect x="1060" y="325" width="70" height="235" rx="6" fill="#4f46e5"/>
+    <rect x="1135" y="285" width="100" height="275" rx="6" fill="#be185d"/>
+    <rect x="1240" y="315" width="80" height="245" rx="6" fill="#0d9488"/>
+  </g>
+  <!-- books row 2 -->
+  <g>
+    <rect x="240" y="440" width="85" height="260" rx="6" fill="#4338ca"/>
+    <rect x="330" y="470" width="95" height="230" rx="6" fill="#b91c1c"/>
+    <rect x="430" y="430" width="70" height="270" rx="6" fill="#15803d"/>
+    <rect x="505" y="460" width="100" height="240" rx="6" fill="#a16207"/>
+    <rect x="610" y="445" width="80" height="255" rx="6" fill="#1d4ed8"/>
+    <rect x="695" y="475" width="90" height="225" rx="6" fill="#7e22ce"/>
+    <rect x="790" y="435" width="105" height="265" rx="6" fill="#c2410c"/>
+    <rect x="900" y="465" width="75" height="235" rx="6" fill="#0f766e"/>
+    <rect x="980" y="440" width="95" height="260" rx="6" fill="#1e40af"/>
+    <rect x="1080" y="470" width="80" height="230" rx="6" fill="#9f1239"/>
+    <rect x="1165" y="445" width="90" height="255" rx="6" fill="#166534"/>
+  </g>
+  <!-- gold star accent -->
+  <g fill="#f59e0b" transform="translate(1380,200)">
+    <polygon points="0,-40 12,-12 42,-12 18,8 28,38 0,20 -28,38 -18,8 -42,-12 -12,-12"/>
+  </g>
+  <text x="800" y="160" font-family="Inter, system-ui, sans-serif" font-size="130" font-weight="800" text-anchor="middle" fill="#78350f">Golden Shelf</text>
+  <text x="800" y="820" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" text-anchor="middle" fill="#78350f">Curated non-fiction books worth reading</text>
+</svg>
